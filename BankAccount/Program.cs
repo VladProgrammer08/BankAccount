@@ -1,2 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using BankAccount;
+
+Account myAccount = new("Vlad B");
+myAccount.Deposit(500);
